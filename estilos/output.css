@@ -578,6 +578,15 @@ video {
   transition-duration: 200ms;
 }
 
+:root {
+  --cor-1: #A61723
+    --cor-2: #F2BB13
+    --cor-3: #F2A03D
+    --cor-4: #A61717
+    --cor-5: #F2F2F2
+
+}
+
 body {
   background-color: #F6F7F8;
 }
