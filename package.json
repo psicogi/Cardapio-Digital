@@ -1,0 +1,28 @@
+{
+  "name": "cardapio-digital",
+  "version": "1.0.0",
+  "description": "Cardápio Digital",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./estilos/style.css -o ./estilos/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psicogi/Cardapio-Digital.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psicogi/Cardapio-Digital/issues"
+  },
+  "homepage": "https://github.com/psicogi/Cardapio-Digital#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
