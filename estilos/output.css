@@ -556,16 +556,83 @@ video {
   display: none;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
 .h-32{
   height: 8rem;
+}
+
+.h-\[420px\]{
+  height: 420px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-32{
   width: 8rem;
 }
 
+.w-full{
+  width: 100%;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .rounded-full{
   border-radius: 9999px;
+}
+
+.bg-zinc-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
+}
+
+.bg-home{
+  background-image: url('/imagens/fachada onca.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-lg{
