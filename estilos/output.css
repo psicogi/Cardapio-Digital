@@ -560,6 +560,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -570,10 +574,6 @@ video {
 
 .mt-9{
   margin-top: 2.25rem;
-}
-
-.mb-6{
-  margin-bottom: 1.5rem;
 }
 
 .flex{
@@ -656,14 +656,14 @@ video {
   text-align: center;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold{
