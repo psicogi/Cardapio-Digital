@@ -8,7 +8,7 @@
     <title>Onça - Casa de Cultura e Arte</title>
 </head>
 <body>
-    
+
     <header class="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center">
         <div class="w-full h-full flex flex-col justify-center items-center">
             <img src="imagens/logo onca.jpg" 
@@ -145,8 +145,15 @@
     </div>
 
     <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] flex items-center justify-center">
-        <div class="bg-white p-5 rounded-md min-w-[90%]">
-            <h2>Meu carrinho</h2>
+        <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
+            <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+            <div id="cart-items" class="flex justify-between mb-2 flex-col">
+
+            <p class="font-bold">Total: <span id="cart-total">0.0</span></p>
+
+            <p class="font-bold mt-4">Endereço de entrega: </p>
+            <input type="text" name="" id="adress" placeholder="Digite o seu endereço" class="w-full border-2 p-1 rounded my-1">
+            </div>
         </div>
     </div>
 
